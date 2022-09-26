@@ -7,12 +7,9 @@ public class Main {
     public static void main(String[] args) {
         Queue<Integer> q = new QueueImpl<Integer>(5);
         try {
-
-
-
-        q.push(1);
+            q.push(1);
             System.out.println(q.size());
-        q.push(2);
+            q.push(2);
             System.out.println(q.size());
 /*        q.push(3);
             System.out.println(q.size());
